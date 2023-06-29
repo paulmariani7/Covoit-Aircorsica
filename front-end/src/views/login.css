@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+.sidenav {
+    width: 100%;
+    background: linear-gradient(
+        to right bottom,
+        rgba(255, 255, 255, 0.7),
+        rgba(255, 255, 255, 0.3)
+      );  
+    border: 2px solid white;
+    border-radius: 2vh;
+    text-align: center;
+    color: #fff;
+    height: 10vh;
+    padding: 1%;
+    }
+
+.main {
+    max-width: 500px;
+	margin: 80px auto;
+	color: #fff;
+	border: 2px solid white;
+	border-radius: 2vh;
+}
+
+.col-md-6 {
+    padding: 30px 40px;
+	background:linear-gradient(to right top,rgb(38, 50, 56) 
+	, rgba(86, 111, 124, 0.616));
+	border-bottom-right-radius:1.5vh ;	
+	border-bottom-left-radius: 1.5vh;
+    border-radius: 2vh;
+}
+
+.col-md-6 p {
+    margin-bottom: 20px;
+
+
+}
+
+
+
+.form-group {
+    margin-bottom: 20px;
+
+}
+
+label {
+    display: block;
+	margin-bottom: 5px;
+}
+
+.form-group input[type='text'] {
+	background: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 0.7),
+    rgba(255, 255, 255, 0.3)
+  );
+  border-radius: 1vh;
+	border: none;
+	font-size: 16px;
+	padding: 5px;
+	height: 40px;
+	width: 100%;
+}
+
+.form-control-bis {
+    background: linear-gradient(
+        to right bottom,
+        rgba(255, 255, 255, 0.7),
+        rgba(255, 255, 255, 0.3)
+      );
+      border-radius: 1vh;
+      
+        border: none;
+        font-size: 16px;
+        padding: 5px;
+        height: 40px;
+        width: 100%;
+        justify-content: space-between;
+    }
+
+.btn-secondary {
+    margin-left: 1%;
+}
+
+.btn-black {
+    margin-left: 1%;
+}
+
+.button-position {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+@media (max-width: 700px) {
+    .button-position {
+        flex-direction: column;
+    }
+    .btn-black {
+        margin-top: 3%;
+        width: 100%;
+    }
+    .btn-secondary {
+        margin-top: 3%;
+        width: 100%;
+    }
+    .sidenav{
+        height: 15vh;
+        padding-top: 2vh;
+    }
+
+
+}
